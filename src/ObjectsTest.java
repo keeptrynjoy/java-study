@@ -29,6 +29,5 @@ public class ObjectsTest {
         System.out.println("compare(\"aa\",\"bb\") = " + compare("aa","bb", c));
         System.out.println("compare(\"bb\",\"aa\") = " + compare("bb","aa", c));
         System.out.println("compare(\"ab\",\"AB\") = " + compare("ab","AB", c));
-
     }
 }
