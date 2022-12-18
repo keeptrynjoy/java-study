@@ -17,7 +17,9 @@ public class ObjectsTest {
         for (String[] tmp : str2D_2)
             System.out.println(Arrays.toString(tmp));
         System.out.println("}");
+
         System.out.println("equals(str2D, str2D_2)="+ Objects.equals(str2D, str2D_2));
+        //deepEquals() : 다차원배열 비교 가능
         System.out.println("deepEquals(str2D, str2D_2)="+ Objects.deepEquals(str2D,str2D_2));
         System.out.println("isNull(null) = " + isNull(null));
         System.out.println("nonNull(null) = " + nonNull(null));
