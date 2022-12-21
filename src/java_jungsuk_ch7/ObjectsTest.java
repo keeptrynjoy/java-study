@@ -1,3 +1,5 @@
+package java_jungsuk_ch7;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Objects;
