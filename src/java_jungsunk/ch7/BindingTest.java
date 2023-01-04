@@ -1,4 +1,4 @@
-package java_jungsuk_ch7;
+package java_jungsunk.ch7;
 
 
 class Parant1 {
