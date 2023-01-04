@@ -10,7 +10,7 @@ public class MessageFormatEx4 {
         String fileName = "Data4.txt";
         String msg = "INSERT INTO "+ tableName
                 + " VALUES ({0},{1},{2},{3});";
-        Scanner s = new Scanner(new File("/Users/kimsungmin/Desktop/study/java_study/src/java_jungsunk/ch10/Data4.txt"));
+        Scanner s = new Scanner(new File("/Users/kimsungmin/Desktop/study/java_study/src/java_jungsunk/ch10/"+fileName));
 
         String pattern = "{0},{1},{2},{3}";
         MessageFormat mf = new MessageFormat(pattern);
