@@ -37,4 +37,5 @@ public class DataFormatEx4 {
 
         System.out.println("입력하신 날짜는 현재와 " + day + "시간 차이가 있습니다.");
     }
+
 }
